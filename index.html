@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Viewer</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    <body>
+        
+        <section class="container">
+            <h1 class="title">Image Viewer</h1>
+        </section>
+        <section class="container">
+            <div class="preview-container">
+                <div class="preview">
+                    <h2 id="p-title"></h2>
+                    <img id="previewImg" src="" />
+                </div>
+                <ul id="preview-thumnails" class="preview-thumnails"></ul>
+            </div>
+
+            <div class="label-container">
+                <div class="label-1 label">
+                    <h2 class="label-head">Grey</h2>
+                    <div class="label-content">
+                        <a id="grey-green" title="Grey Green" href="javascript:void(0)"><img src="assets/images/thumbnails/grey-green.jpg"></a>
+                        <a id="grey-grey" title="Grey Grey" href="javascript:void(0)"><img src="assets/images/thumbnails/grey-grey.jpg"></a>
+                        <a id="grey-red" title="Grey Red" href="javascript:void(0)"><img src="assets/images/thumbnails/grey-red.jpg"></a>
+                    </div>
+                </div>
+                <div class="label-2 label">
+                    <h2 class="label-head close">Red</h2>
+                    <div class="label-content">
+                        <a id="red-green" title="Red Green" href="javascript:void(0)"><img src="assets/images/thumbnails/red-green.jpg"></a>
+                        <a id="red-grey" title="Red Grey" href="javascript:void(0)"><img src="assets/images/thumbnails/red-grey.jpg"></a>
+                        <a id="red-red" title="Red Red" href="javascript:void(0)"><img src="assets/images/thumbnails/red-red.jpg"></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- custom js -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
